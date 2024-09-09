@@ -7,3 +7,7 @@ After smart contract is finished, build it with Docker and push to Docker Hub.
 The operator can pull the image to install smart contract later.
 
 \*Note: the Dockerfile in this project may not work for Windows.
+
+```
+docker build -t jasonph/ccaas-report:latest .
+```
